@@ -55,6 +55,10 @@
 			b - git add .
 			c - git commit -m "Descreva o commit"
 			d - git push origin "nome da branch"
+			** para juntar os projetos
+			e - git checkout main
+			f - git marge "nome da branch"
+			g - git push origin "main"
 		)
 	fim - neste logica carregou o projeto.
 
