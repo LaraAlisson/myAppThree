@@ -7,22 +7,22 @@
 4 - Criar no diretório o arquivo eas.json e adicione o cód.
 ***
 {
-    "build": {
-        "preview": {
-            "android": {
-                "buildType": "apk"
-            }
-        },
-        "preview2": {
-            "android": {
-                "gradleCommand": ":app:assembleRelease"
-            }
-        },
-        "preview3": {
-            "developmentClient": true
-        },
-        "production": {}
-    }
+"build": {
+"preview": {
+"android": {
+"buildType": "apk"
+}
+},
+"preview2": {
+"android": {
+"gradleCommand": ":app:assembleRelease"
+}
+},
+"preview3": {
+"developmentClient": true
+},
+"production": {}
+}
 }
 ***
 5 - adicionar a variavel de ambiente no app.json no android.
@@ -49,6 +49,17 @@
 		f - git push -u origin main
 		** para as proximas commit usar passo a,b e f**
 	    )
+	7.5 - para criar nova versão do projeto.
+		(
+			a - git checkout -b "nome da branch"
+			b - git add .
+			c - git commit -m "Descreva o commit"
+			d - git push origin "nome da branch"
+			** para juntar os projetos
+			e - git checkout main
+			f - git marge "nome da branch"
+			g - git push origin "main"
+		)
 	fim - neste logica carregou o projeto.
 
 *****************************************
