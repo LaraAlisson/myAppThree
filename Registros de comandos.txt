@@ -49,6 +49,13 @@
 		f - git push -u origin main
 		** para as proximas commit usar passo a,b e f**
 	    )
+	7.5 - para criar nova versão do projeto.
+		(
+			a - git checkout -b "nome da branch"
+			b - git add .
+			c - git commit -m "Descreva o commit"
+			d - git push origin "nome da branch"
+		)
 	fim - neste logica carregou o projeto.
 
 *****************************************
