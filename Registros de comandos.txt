@@ -1,3 +1,7 @@
+EMULADOR DO ANDROID
+1 - emulator -list-avds
+2 - emulator -no-snapshot -avd "nome do emulator"
+3 - npx expo start - atualiza o código sempre quando salva.
 *****************************************
 *******Comandos CMD**********************
 
